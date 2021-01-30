@@ -1,0 +1,71 @@
+#contentx {
+    margin: auto;
+}
+
+table, th, td {
+    border: 2px solid darkgrey;
+}
+
+td,th {
+    font-size: 20px;
+    padding: 10px;
+}
+
+body {
+    background-color: rgb(211,211,211);
+}
+
+#content-form {
+    display: block;
+    margin-top: 50px;
+    width: 40%;
+    margin: auto;
+}
+
+.form-group {
+    display: block;
+    margin: 10px 0;
+}
+.form-group input {
+    float: right;
+}
+
+.form-group button {
+    background: #94bf17;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 30%;
+    border: none;
+    float: right;
+    margin-top: 20px;
+    clear: both;
+}
+
+td {
+    position: relative;
+}
+
+.change-link {
+    position: absolute;
+    /*width: 116px;*/
+    right: -1px;
+    height: 38px;
+    bottom: 0px;
+    display: none;
+}
+
+.delete-cell {
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+.delete-cell:hover {
+    background: radial-gradient(#bf6c6c, transparent);
+    cursor: grabbing;
+}
+
+.content {
+    line-break: anywhere;
+}
